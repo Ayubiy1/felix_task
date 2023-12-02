@@ -1,0 +1,30 @@
+.parent {
+  background-color: #333333 !important;
+}
+.book {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-btn {
+  border: 1px solid #6200ee;
+}
+.menu-btn:hover {
+  border: 1px solid transparent;
+}
+
+@media screen and (max-width: 834px) {
+  .title {
+    text-align: center !important;
+  }
+  .form {
+    width: 500px;
+  }
+  .form,
+  .crare-btn {
+    margin-top: 10px !important;
+  }
+  .book {
+    display: block !important;
+  }
+}

@@ -1,0 +1,38 @@
+.ant-list-item {
+  /* display: flex !important;
+  align-items: start !important; */
+}
+.option {
+  margin: 10px 0 !important;
+  display: none;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card:hover .option {
+  display: block;
+}
+/* .card {
+}
+
+@media screen and (min-width: 851px) {
+  .card {
+    width: 32%;
+  }
+}
+@media screen and (max-width: 850px) and (min-width: 601px) {
+  .card {
+    width: 48% !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100% !important;
+  }
+} */

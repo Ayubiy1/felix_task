@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Ayubbek",
+      "userName": "Ayubiy",
+      "email": "ayubbek@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "name": "Abbos",
+      "userName": "Abboss",
+      "email": "test@gmail.com",
+      "password": "123123"
+    },
+    {
+      "id": 3,
+      "name": "Nozim",
+      "userName": "Nozim bek",
+      "email": "nozim@gmail.com",
+      "password": "13564"
+    },
+    {
+      "name": "das",
+      "userName": "das",
+      "password": "das",
+      "id": 4
+    }
+  ]
+}
